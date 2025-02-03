@@ -102,10 +102,10 @@
                     <td>{{ $user->user_fullname }}</td>
                     <td>{{ $user->user_email }}</td>
                     <td>
-                        @if($user->status == 1)
-                        <span style="color: green;">Aktif</span>
+                        @if($user->isOnline())
+                        <span style="color: green;">Online</span>
                         @else
-                        <span style="color: red;">Tidak Aktif</span>
+                        <span style="color: red;">Offline</span>
                         @endif
                     </td>
                     <td>

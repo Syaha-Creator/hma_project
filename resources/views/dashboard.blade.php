@@ -6,50 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
 
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
 
-        .box {
-            display: inline-block;
-            width: 200px;
-            height: 100px;
-            background: #3498db;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            font-size: 20px;
-            margin: 20px;
-            border-radius: 10px;
-        }
+    .box {
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background: #3498db;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+        margin: 20px;
+        border-radius: 10px;
+    }
 
-        .sidebar {
-            width: 200px;
-            float: left;
-            padding: 20px;
-            background: #eee;
-            height: 100vh;
-        }
+    .sidebar {
+        width: 200px;
+        float: left;
+        padding: 20px;
+        background: #eee;
+        height: 100vh;
+    }
 
-        .main-content {
-            margin-left: 220px;
-            padding: 20px;
-        }
+    .main-content {
+        margin-left: 220px;
+        padding: 20px;
+    }
 
-        .menu a {
-            display: block;
-            padding: 10px;
-            background: #ddd;
-            margin-bottom: 5px;
-            text-decoration: none;
-            color: black;
-        }
+    .menu a {
+        display: block;
+        padding: 10px;
+        background: #ddd;
+        margin-bottom: 5px;
+        text-decoration: none;
+        color: black;
+    }
     </style>
 </head>
 
